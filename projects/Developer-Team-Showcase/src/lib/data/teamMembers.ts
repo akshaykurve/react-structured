@@ -1,0 +1,68 @@
+import type { TeamMember } from "../../types/team";
+
+export const developers:TeamMember[] = [
+  {
+    id: 1,
+    name: "Aisha Sharma",
+    role: "Frontend Developer",
+    technology: "React.js",
+    experience: "3 Years",
+    company: "Google",
+  },
+  {
+    id: 2,
+    name: "Rahul Verma",
+    role: "Backend Developer",
+    technology: "Node.js",
+    experience: "5 Years",
+    company: "Microsoft",
+  },
+  {
+    id: 3,
+    name: "Priya Nair",
+    role: "UI/UX Designer",
+    technology: "Figma",
+    experience: "4 Years",
+    company: "Adobe",
+  },
+  {
+    id: 4,
+    name: "Arjun Patel",
+    role: "Full Stack Developer",
+    technology: "MERN Stack",
+    experience: "6 Years",
+    company: "Amazon",
+  },
+  {
+    id: 5,
+    name: "Sneha Kulkarni",
+    role: "Mobile Developer",
+    technology: "React Native",
+    experience: "2 Years",
+    company: "Swiggy",
+  },
+  {
+    id: 6,
+    name: "Vikram Singh",
+    role: "DevOps Engineer",
+    technology: "Docker & Kubernetes",
+    experience: "7 Years",
+    company: "Atlassian",
+  },
+  {
+    id: 7,
+    name: "Neha Joshi",
+    role: "QA Automation Engineer",
+    technology: "Cypress",
+    experience: "3 Years",
+    company: "Zoho",
+  },
+  {
+    id: 8,
+    name: "Karan Mehta",
+    role: "Data Engineer",
+    technology: "Python & Apache Spark",
+    experience: "5 Years",
+    company: "Netflix",
+  },
+];
